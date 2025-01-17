@@ -18,7 +18,7 @@ console.log(input.value);  // logs "Hello"
 
 input.setAttribute('value', 'World');
 console.log(input.getAttribute('value'));  // logs "World"
-console.log(input.value);  // logs "Hello"
+console.log(input.value);  // logs "World"
 
 input.value = 'Hello';
 console.log(input.getAttribute('value'));  // logs "World"
